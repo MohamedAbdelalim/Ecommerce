@@ -7,7 +7,8 @@
 
 ### setup mysql database with your database name, username and password 
 
-'''python
+'''
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -41,13 +42,15 @@ $ python manage.py runserver
 <br/>
 
 ### ADD products as admin
-'''python
+'''
+
 http://127.0.0.1:8000/admin/
 '''
 <br/>
 
 ### Register as customer then it will redirect you to login 
-'''python
+'''
+
 http://127.0.0.1:8000/register/
 '''
 <br/>
@@ -57,7 +60,8 @@ http://127.0.0.1:8000/register/
 
 ### Then login as customer and it will redirect you to main page `store.html` to view product and add to cart
 
-'''python
+'''
+
 http://127.0.0.1:8000/login/
 '''
 <br/>
