@@ -3,11 +3,10 @@
 
 ## Setup
 <br/>
-<br/>
 
 ### setup mysql database with your database name, username and password 
 
-'''
+```
 
 DATABASES = {
     'default': {
@@ -19,7 +18,7 @@ DATABASES = {
         'PORT': '3306',
     }
 }
-'''
+```
 <br/>
 
 ### Migrate database
@@ -42,17 +41,17 @@ $ python manage.py runserver
 <br/>
 
 ### ADD products as admin
-'''
+```
 
 http://127.0.0.1:8000/admin/
-'''
+```
 <br/>
 
 ### Register as customer then it will redirect you to login 
-'''
+```
 
 http://127.0.0.1:8000/register/
-'''
+```
 <br/>
 
 ### Attatch customer to user and order in admin dashboard
@@ -60,10 +59,10 @@ http://127.0.0.1:8000/register/
 
 ### Then login as customer and it will redirect you to main page `store.html` to view product and add to cart
 
-'''
+```
 
 http://127.0.0.1:8000/login/
-'''
+```
 <br/>
 
 ### API documantaion 
